@@ -1,0 +1,129 @@
+
+.linkwrapper {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #252222;
+    padding-left: 30px;
+    position: relative;
+  }
+
+.linkwrapper ul {
+		text-decoration: none;
+	}
+.linkwrapper h3 {
+		padding: 10px 10;
+		font-size: 20px;
+        color: aliceblue;
+        text-decoration: none;
+        list-style: none;
+	}
+	/* .linkwrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	} */
+
+.footer-wrapper li{
+        color: white;
+        list-style: none;
+        padding: 10px;
+    }
+.h3{
+    text-decoration: none;
+    list-style: none;
+}
+
+ .footer__logo{
+        
+        width: 76px;
+        height: 23px;
+         
+    }
+    .allwrapper{
+        background-color: #252222;
+        align-items: center;
+        text-align: center;
+    }
+    .wrapperImg{
+        
+        padding: 20px 40% 20px;
+        display: flex;
+        justify-content:space-around;
+               
+               
+    }
+     .footer__flag{
+        /* background-position-x: center; */
+        width: 30px;
+        height: 23px;
+        padding-right: 5px;
+        
+    }
+        .usa{
+            color: antiquewhite;
+            
+        }
+        .btn{
+            border: #e4e0e0;
+        }
+        .flagbtn{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    .firstHeader {
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    background-color: rgb(50, 49, 49);
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .firstHeader:hover{
+    background-color: rgb(78, 84, 89);
+  }
+
+
+@media (max-width: 768px){
+	
+	.linkwrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #252222;
+        color: aliceblue;
+	}
+	.linkwrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+    .footer-wrapper li{
+        display: inline-block;
+        padding: 20px;
+    }
+    .footer__logo{
+        background-position: -10px -90px;
+        width: 76px;
+        height: 23px;
+        margin: 0 auto;
+    }
+    .wrapperImg{
+        display: inline-block;
+    }
+     .footer__flag{
+        background-position: -10px -90px;
+        width: 76px;
+        height: 23px;
+        margin: 0 auto;}
+     }
+    /* .linkwrapper h3.expanded:after {
+		font-family: "FontAwesome";
+		content: "\f00d";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;	  
+	} */
